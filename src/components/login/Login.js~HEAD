@@ -1,4 +1,5 @@
-  import React from 'react';
+
+    import React from 'react';
     import Avatar from '@material-ui/core/Avatar';
     import Button from '@material-ui/core/Button';
     import CssBaseline from '@material-ui/core/CssBaseline';
@@ -7,16 +8,44 @@
     import Checkbox from '@material-ui/core/Checkbox';
     import Link from '@material-ui/core/Link';
     import Grid from '@material-ui/core/Grid';
+    import Box from '@material-ui/core/Box';
     import LockOutlinedIcon from '@material-ui/icons/LockOutlined';
     import Typography from '@material-ui/core/Typography';
     import { makeStyles } from '@material-ui/core/styles';
     import Container from '@material-ui/core/Container';
     import EmailOutlinedIcon from '@material-ui/icons/EmailOutlined';
     import VpnKeyOutlinedIcon from '@material-ui/icons/VpnKeyOutlined';
-    import {useHistory} from "react-router";
+    import {bindActionCreators} from "redux";
+    import * as actions from "../../redux/actions";
+    import {connect} from "react-redux";
+    function mapStateToProps(state) {
+        return{
+            users:state.users,
+        }
 
+    }
+    function mapDispatchToProps(dispatch) {
+        return bindActionCreators(actions,dispatch)
 
-  const useStyles = makeStyles((theme) => ({
+<<<<<<< HEAD:src/components/login/Login.js
+    }
+    
+=======
+    function Copyright() {
+        return (
+            <Typography variant="body2" color="textSecondary" align="center">
+                {'Copyright © '}
+                <Link color="inherit" href="https://material-ui.com/">
+                    Your Website
+                </Link>{' '}
+                {new Date().getFullYear()}
+                {'.'}
+            </Typography>
+        );
+    }
+>>>>>>> ed23d40014ff43bd73b63f1472c3460635337569:src/Main.js
+
+    const useStyles = makeStyles((theme) => ({
         paper: {
             marginTop: theme.spacing(8),
             display: 'flex',
@@ -49,8 +78,8 @@
         }
     }));
 
-    function Login(props) {
-        const history=useHistory()
+    function Main(props) {
+        console.log(props)
         const classes = useStyles();
         const handleSubmit=(e)=> {
             e.preventDefault();
@@ -63,7 +92,8 @@
             }
             if(email&&pass){
                 props.submitForm(user)
-                history.push('/home')
+                props.history.push('/home')
+
             }
             else {
                 alert('Ooops fill both input babe')
@@ -141,4 +171,7 @@
             </Container>
         );
     }
-    export default Login
+<<<<<<< HEAD:src/components/login/Login.js
+    export default connect(mapStateToProps,mapDispatchToProps)(Main)
+=======
+>>>>>>> ed23d40014ff43bd73b63f1472c3460635337569:src/Main.js

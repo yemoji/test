@@ -2,7 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="84e0ce37-b11a-4b78-8fab-a068cd30cb7b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/home/ActionButton/ActionButton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/home/Home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/home/NumberView/NumberView.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/home/Rotate/Rotate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/home/Switchers/Switchers.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/login/Login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +39,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -35,8 +48,17 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.3.4\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\moji\Desktop\test1\src\components\home" />
+      <recent name="C:\Users\moji\Desktop\test1\src\components\login" />
+      <recent name="C:\Users\moji\Desktop\test1\src\components" />
+      <recent name="C:\Users\moji\Desktop\test1\src" />
+      <recent name="C:\Users\moji\Desktop\test1\src\redux\components" />
+    </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
@@ -67,7 +89,14 @@
       <workItem from="1588172772896" duration="1920000" />
       <workItem from="1588182642426" duration="1983000" />
       <workItem from="1588185978756" duration="858000" />
-      <workItem from="1588189292492" duration="1156000" />
+      <workItem from="1588189292492" duration="2095000" />
+      <workItem from="1588192963238" duration="2571000" />
+      <workItem from="1588240594257" duration="432000" />
+      <workItem from="1588241065524" duration="2998000" />
+      <workItem from="1588261228404" duration="4198000" />
+      <workItem from="1588272082867" duration="3529000" />
+      <workItem from="1588278155736" duration="9556000" />
+      <workItem from="1588317826477" duration="5848000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1588189837383</created>
@@ -91,29 +120,37 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="391" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1588189835340" />
-    <state width="1515" height="190" key="GridCell.Tab.0.bottom" timestamp="1588187334953">
+    <state x="548" y="154" key="FileChooserDialogImpl" timestamp="1588275159848">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="190" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588187334953" />
-    <state width="1515" height="190" key="GridCell.Tab.0.center" timestamp="1588187334953">
+    <state x="548" y="154" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1588275159848" />
+    <state width="1515" height="190" key="GridCell.Tab.0.bottom" timestamp="1588318420093">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="190" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1588187334953" />
-    <state width="1515" height="190" key="GridCell.Tab.0.left" timestamp="1588187334952">
+    <state width="1515" height="190" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588318420093" />
+    <state width="1515" height="190" key="GridCell.Tab.0.center" timestamp="1588318420093">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="190" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1588187334952" />
-    <state width="1515" height="190" key="GridCell.Tab.0.right" timestamp="1588187334953">
+    <state width="1515" height="190" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1588318420093" />
+    <state width="1515" height="190" key="GridCell.Tab.0.left" timestamp="1588318420093">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="190" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1588187334953" />
-    <state x="277" y="55" key="SettingsEditor" timestamp="1588190461624">
+    <state width="1515" height="190" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1588318420093" />
+    <state width="1515" height="190" key="GridCell.Tab.0.right" timestamp="1588318420093">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="277" y="55" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1588190461624" />
-    <state x="425" y="187" key="run.anything.popup" timestamp="1588165930205">
+    <state width="1515" height="190" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1588318420093" />
+    <state x="277" y="55" key="SettingsEditor" timestamp="1588275252313">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1588165930205" />
+    <state x="277" y="55" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1588275252313" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1588291745333">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1588291745333" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1588288341024">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1588288341024" />
   </component>
 </project>
