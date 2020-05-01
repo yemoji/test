@@ -26,8 +26,9 @@ function App(props) {
 
             <>
                 <Switch>
-                <Route path='/login' render={()=>(<Login {...props}/>)}/>
-                <Route path='/home' component={Home}/>
+                  <Route exact path='/' render={()=>(<Login {...props}/>)}/>
+                  <Route path='/login' render={()=>(<Login {...props}/>)}/>
+                  <Route path='/home' component={Home}/>
                 </Switch>
             </>
     )
