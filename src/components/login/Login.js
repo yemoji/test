@@ -14,8 +14,20 @@
     import Container from '@material-ui/core/Container';
     import EmailOutlinedIcon from '@material-ui/icons/EmailOutlined';
     import VpnKeyOutlinedIcon from '@material-ui/icons/VpnKeyOutlined';
+    import {bindActionCreators} from "redux";
+    import * as actions from "../../redux/actions";
+    import {connect} from "react-redux";
+    function mapStateToProps(state) {
+        return{
+            users:state.users,
+        }
 
+    }
+    function mapDispatchToProps(dispatch) {
+        return bindActionCreators(actions,dispatch)
 
+    }
+    
 
     const useStyles = makeStyles((theme) => ({
         paper: {
@@ -50,7 +62,8 @@
         }
     }));
 
-    export default function Main(props) {
+    function Main(props) {
+        console.log(props)
         const classes = useStyles();
         const handleSubmit=(e)=> {
             e.preventDefault();
@@ -63,6 +76,11 @@
             }
             if(email&&pass){
                 props.submitForm(user)
+                props.history.push('/home')
+
+            }
+            else {
+                alert('Ooops fill both input babe')
             }
         }
 
@@ -78,7 +96,7 @@
                             Sign in
                         </Typography>
                     </Grid>
-                    <form  className={classes.form} noValidate>
+                    <form onSubmit={handleSubmit} className={classes.form} noValidate>
                         <Grid container className={classes.inputForm}>
                             <EmailOutlinedIcon clasName={classes.emailIcon} style={{ fontSize: 40 }}/>
                             <TextField
@@ -137,3 +155,4 @@
             </Container>
         );
     }
+    export default connect(mapStateToProps,mapDispatchToProps)(Main)
