@@ -13,7 +13,7 @@ const areEqual = (prevProps, nextProps) => {
 
 const Switchers=React.memo(function  Switchers(props){
     return(
-        <Grid item xs={3}>
+        <div >
             <FormControlLabel
                 control={<Switch checked={props.odd} onChange={props.handleOdd} name="checkedA" />}
                 label="Odd"
@@ -22,7 +22,7 @@ const Switchers=React.memo(function  Switchers(props){
                 control={<Switch checked={props.even} onChange={props.handleEven} name="checkedA" />}
                 label="Even"
             />
-        </Grid>
+        </div>
     )
 },areEqual);
 export default Switchers

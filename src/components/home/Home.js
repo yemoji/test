@@ -3,17 +3,8 @@ import Switchers from "./Switchers/Switchers";
 import NumberView from "./NumberView/NumberView";
 import Rotate from "./Rotate/Rotate";
 import ActionButton from "./ActionButton/ActionButton";
-import { Grid } from '@material-ui/core';
-import {makeStyles} from "@material-ui/core/styles";
-
-const useStyles = makeStyles((theme) => ({
-    container: {
-        marginTop: theme.spacing(8),
-        height:'800px',
-        display: 'flex',
-        justifyContent: 'center',
-    }}));
-
+import {Wrapper} from "./Wrapper";
+import {anotherWrapper} from "./anotherWrapper";
 
 
 const reducer=(state,action)=>{
@@ -97,8 +88,6 @@ const reducer=(state,action)=>{
 }
 
 function Home() {
-    const classes=useStyles
-
     const [state,dispatch]=useReducer(reducer,{
         counter:0,
         odd:true,
@@ -125,26 +114,34 @@ function Home() {
 
 
 
-    return(
-        <Grid container className={classes.container} >
-            <Switchers
+    return(<>
+        <Wrapper>
+           <Switchers
                 odd={state.odd}
                 even={state.even}
                 handleEven={handleEven}
                 handleOdd={handleOdd}/>
-            <NumberView
-                counter={state.counter}
-                rotate={state.rotate}
-            />
-            <Rotate
-                rotate={state.rotate}
-                handleRotate={handleRotate}/>
-            <ActionButton
-                counter={state.counter}
-                handelButton={handleButton}
-            />
-        </Grid>
-    )
+
+                <NumberView
+                    counter={state.counter}
+                    rotate={state.rotate}
+                />
+
+                <Rotate
+                    rotate={state.rotate}
+                    handleRotate={handleRotate}/>
+        </Wrapper>
+            <anotherWrapper>
+        <ActionButton
+    counter={state.counter}
+    handelButton={handleButton}
+    />
+            </anotherWrapper>
+</>
+
+
+
+)
 
 }
 export default Home

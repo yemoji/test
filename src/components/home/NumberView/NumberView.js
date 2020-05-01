@@ -1,5 +1,4 @@
 import React from "react";
-import {Grid} from "@material-ui/core";
 import styled from "styled-components";
 
 const areEqual = (prevProps, nextProps) => {
@@ -14,9 +13,9 @@ const areEqual = (prevProps, nextProps) => {
 const NumberView=React.memo(function NumberView(props){
     console.log(props)
     return(
-        <Grid item xs={6} >
+        <div>
             <h1><NumView {...props}>{props.counter}</NumView></h1>
-        </Grid>
+        </div>
     )
 },areEqual);
 

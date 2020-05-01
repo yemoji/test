@@ -10,14 +10,14 @@ const areEqual=(prevprops,nextprops)=>{
     }
 }
 
-const Rotate=(props)=>{
+const Rotate= React.memo(function Rotate (props){
     return(
-    <Grid item xs={3}>
+    <div>
         <FormControlLabel
             control={<Checkbox checked={props.rotate} onChange={props.handleRotate} name="rotate" />}
             label="Rotate"
         />
-                </Grid>
+                </div>
 )
-}
+},areEqual);
 export default Rotate

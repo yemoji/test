@@ -1,5 +1,3 @@
-.container{
-  display: flex;
-  height: 80%;
-  justify-content: center;
+.flex{
+ justify-self: center;
 }
