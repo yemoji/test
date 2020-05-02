@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="84e0ce37-b11a-4b78-8fab-a068cd30cb7b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/List/MyListItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/List/MyListItem.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +90,7 @@
       <workItem from="1588317826477" duration="11877000" />
       <workItem from="1588350642332" duration="1653000" />
       <workItem from="1588407770998" duration="2145000" />
-      <workItem from="1588445226675" duration="14343000" />
+      <workItem from="1588445226675" duration="14583000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1588189837383</created>
@@ -98,22 +99,41 @@
       <option name="project" value="LOCAL" />
       <updated>1588189837383</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="nnnnn">
+      <created>1588462881783</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1588462881783</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="first" />
-    <option name="LAST_COMMIT_MESSAGE" value="first" />
+    <MESSAGE value="nnnnn" />
+    <option name="LAST_COMMIT_MESSAGE" value="nnnnn" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="391" y="0" key="CommitChangelistDialog2" timestamp="1588189835340">
+    <state x="391" y="0" key="CommitChangelistDialog2" timestamp="1588462880627">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="391" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1588189835340" />
+    <state x="391" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1588462880627" />
     <state x="548" y="154" key="FileChooserDialogImpl" timestamp="1588275159848">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
