@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="84e0ce37-b11a-4b78-8fab-a068cd30cb7b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/moji.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/List/Modal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/List/MyList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/List/MyListItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App.js" afterDir="false" />
-    </list>
+    <list default="true" id="84e0ce37-b11a-4b78-8fab-a068cd30cb7b" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -95,7 +87,7 @@
       <workItem from="1588317826477" duration="11877000" />
       <workItem from="1588350642332" duration="1653000" />
       <workItem from="1588407770998" duration="2145000" />
-      <workItem from="1588445226675" duration="13806000" />
+      <workItem from="1588445226675" duration="14082000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1588189837383</created>
