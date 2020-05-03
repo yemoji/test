@@ -7,6 +7,7 @@ import ListItemSecondaryAction from "@material-ui/core/ListItemSecondaryAction";
 import IconButton from "@material-ui/core/IconButton";
 import DeleteIcon from "@material-ui/icons/Delete";
 import List from '@material-ui/core/List';
+import Modal from "./Modal";
 
 const MyListItem =(props)=>{
   const deleteItem=()=>{
