@@ -1,0 +1,20 @@
+.container {
+  margin: 0 auto;
+}
+
+.map {
+  height: 500px;
+  position: relative;
+}
+
+.leaflet-container {
+  width: 100%;
+  height: 100vh;
+}
+
+.button-map {
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  z-index: 500;
+}
